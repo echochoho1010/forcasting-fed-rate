@@ -1,0 +1,25 @@
+model,regime_simple,accuracy,count
+CatBoost (+ regime),Easing,0.4583333333333333,24
+CatBoost (+ regime),Plateau,0.8709677419354839,31
+CatBoost (+ regime),Tightening,0.5714285714285714,42
+CatBoost (base),Easing,0.4583333333333333,24
+CatBoost (base),Plateau,0.8709677419354839,31
+CatBoost (base),Tightening,0.5714285714285714,42
+HGB (+ regime),Easing,0.4583333333333333,24
+HGB (+ regime),Plateau,0.6774193548387096,31
+HGB (+ regime),Tightening,0.5,42
+HGB (base),Easing,0.375,24
+HGB (base),Plateau,0.6774193548387096,31
+HGB (base),Tightening,0.5,42
+LightGBM (+ regime),Easing,0.5416666666666666,24
+LightGBM (+ regime),Plateau,0.7096774193548387,31
+LightGBM (+ regime),Tightening,0.40476190476190477,42
+LightGBM (base),Easing,0.5416666666666666,24
+LightGBM (base),Plateau,0.7419354838709677,31
+LightGBM (base),Tightening,0.40476190476190477,42
+XGBoost (+ regime),Easing,0.5,24
+XGBoost (+ regime),Plateau,0.8387096774193549,31
+XGBoost (+ regime),Tightening,0.47619047619047616,42
+XGBoost (base),Easing,0.6666666666666666,24
+XGBoost (base),Plateau,0.8064516129032258,31
+XGBoost (base),Tightening,0.4523809523809524,42

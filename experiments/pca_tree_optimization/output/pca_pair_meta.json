@@ -1,0 +1,14 @@
+{
+  "method": "two_feature_standardized_pca",
+  "features": [
+    "unemployment_gap_lag1",
+    "output_gap_pct_lag1"
+  ],
+  "pc1_name": "cycle_gap_pc1",
+  "orientation": "higher PC1 means higher output gap and lower unemployment gap",
+  "pearson_corr": -0.8137897915028742,
+  "explained_variance_ratio_pc1": 0.9068948957514372,
+  "score_mean": -5.224578939412501e-17,
+  "score_std": 1.346770133134409,
+  "leakage_note": "The diagnostic loadings use the full sample for interpretation only. Model experiments fit PCA inside each walk-forward training fold."
+}
